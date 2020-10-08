@@ -4,6 +4,7 @@
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1080px;
+  padding: 0 25px;
 }
 
 .Header nav a {
@@ -22,6 +23,73 @@
 
 .Home {
   margin: 0 auto;
-  max-width: 100px;
+  max-width: 1080px;
+  padding: 0 25px;
   
+}
+
+.Home h2 {
+  font-size: 48px;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.Home h2 span{
+  color: green;
+}
+
+.WeatherInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.WeatherInfo_Image {
+  font-size: 100px;
+}
+
+.WeatherInfo_Basic {
+  border: 2px solid black;
+  flex-basis: 30%;
+  padding: 30px;
+  text-align: center;
+}
+
+.WeatherInfo_Temperature {
+  font-size: 72px;
+  margin: 0;
+}
+
+.WeatherInfo_Temperature_Small {
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.WeatherInfo_Type {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.WeatherInfo_Extra {
+  border: 2px solid black;
+  border-left: none;
+  display: flex;
+  flex-basis: 70%;
+  padding:  30px;
+}
+
+.WeatherInfo_Extra_Column {
+  flex-basis: 50%;
+}
+
+.WeatherInfo_Image {
+  font-size: 150px;
+
+}
+
+.Label {
+  font-size: 16px;
+  letter-spacing: 2px;
+
 }
