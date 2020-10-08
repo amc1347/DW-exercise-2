@@ -90,7 +90,7 @@ function Home() {
         <main className="Home" >
             <h2>Weather in <span>{city}</span></h2>
             <div className = "WeatherInfo">
-                <div className = "WeatherInfo_Basic" style={{backgroundColor: `rgba(0,0,0,${cloudinessValue / 200})`}}>
+                <div className = "WeatherInfo_Basic" style={{backgroundColor: `rgba(0,0,0,${cloudinessValue / 250})`}}>
                     <div className = "WeatherInfo_Image">
                         <WeatherImage weatherType={weatherType}/>
                     </div>
